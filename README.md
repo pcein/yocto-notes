@@ -81,6 +81,29 @@ devtool deploy-target bbexample root@ip
 devtool finish bbexample /path/to/layer
 ```
 
+Creating an extensible sdk:
+
+```
+bitbake image-recipe -c populate-sdk-ext
+```
+Installer in tmp/deploy/sdk
+
+
+Extending and updating the esdk using devtool:
+
+```
+devtool sdk-update [http url]
+devtool search pkg-name
+devtool sdk-install -s recipe-name
+```
+Publishing the SDK:
+
+a) Define a URL for the updater: http://mysite.com/sdk-updates
+
+b) SDK_UPDATE_URL = "..."
+
+c) oe-publish-sdk tmp/deploy/sdk/installer.sh /path/to/sdk/updates
+
 
 
 
