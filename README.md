@@ -53,3 +53,8 @@ DISTRO_FEATURES_append = " bluez5 bluetooth wifi"
 
 IMAGE_INSTALL_append = " linux-firmware-bcm43430  kernel-modules bluez5 i2c-tools python-smbus bridge-utils hostapd dhcp-server iptables wpa-supplicant crda iw wireless-tools dhcp-client"
 ```
+## Create vmdk images
+
+CONFIG_FSTYPES += "wic.vmdk"    # (previously it was just vmdk)
+
+
