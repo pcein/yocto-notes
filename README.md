@@ -65,6 +65,21 @@ https://www.yoctoproject.org/docs/2.0/dev-manual/dev-manual.html#using-devtool-i
 
 ## ESDK commands
 
+Create a new layer:
+
+```
+bitbake-layers create-layer path/to/layer
+```
+
+devtool usage:
+
+```
+devtool add https://github.com/whbruce/bbexample.git
+devtool edit-recipe bbexample
+devtool build bbexample
+devtool deploy-target bbexample root@ip
+devtool finish bbexample /path/to/layer
+```
 
 
 
