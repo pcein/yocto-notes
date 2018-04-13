@@ -57,4 +57,16 @@ IMAGE_INSTALL_append = " linux-firmware-bcm43430  kernel-modules bluez5 i2c-tool
 
 CONFIG_FSTYPES += "wic.vmdk"    # (previously it was just vmdk)
 
+## Extended SDK Links
+
+https://wiki.yoctoproject.org/wiki/Application_Development_with_Extensible_SDK
+
+https://www.yoctoproject.org/docs/2.0/dev-manual/dev-manual.html#using-devtool-in-your-workflow
+
+## ESDK commands
+
+
+
+
+
 
