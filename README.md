@@ -38,6 +38,7 @@ drwxrwxr-x 11 pramode pramode 4096 Apr  6 13:35 poky
 
 All of them are branch "rocko", except meta-swupdate-boards which is "master".
 
+
 Here are some configuration settings in local.conf:
 
 ```bash
@@ -105,6 +106,14 @@ b) SDK_UPDATE_URL = "..."
 c) oe-publish-sdk tmp/deploy/sdk/installer.sh /path/to/sdk/updates
 
 
+## Fixing error: NO GNU_HASH in ELF binary
+
+Add to your recipe:
+
+```
+INSANE_SKIP_${PN} = "ldflags"
+INSANE_SKIP_${PN}-dev = "ldflags"
+```
 
 
 
