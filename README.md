@@ -85,7 +85,7 @@ devtool finish bbexample /path/to/layer
 Creating an extensible sdk:
 
 ```
-bitbake image-recipe -c populate-sdk-ext
+bitbake image-recipe -c populate_sdk_ext
 ```
 Installer in tmp/deploy/sdk
 
