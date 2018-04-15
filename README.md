@@ -115,5 +115,7 @@ INSANE_SKIP_${PN} = "ldflags"
 INSANE_SKIP_${PN}-dev = "ldflags"
 ```
 
+## Enable 'populate_sdk' for an image
 
+Add: "inherit populate_sdk" to the recipe corresponding to the image.
 
