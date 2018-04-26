@@ -56,7 +56,7 @@ IMAGE_INSTALL_append = " linux-firmware-bcm43430  kernel-modules bluez5 i2c-tool
 ```
 ## Create vmdk images
 
-CONFIG_FSTYPES += "wic.vmdk"    # (previously it was just vmdk)
+IMAGE_FSTYPES += "wic.vmdk"    # (previously it was just vmdk)
 
 ## Extended SDK Links
 
