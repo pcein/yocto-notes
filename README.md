@@ -119,3 +119,10 @@ INSANE_SKIP_${PN}-dev = "ldflags"
 
 Add: "inherit populate_sdk" to the recipe corresponding to the image.
 
+## Note on running postinstall script (swupdate) to preserve data across updates
+
+[to be written]
+
+## Yocto image with Grub - for running inside virtualbox with swupdate integration
+
+https://wiki.yoctoproject.org/wiki/TipsAndTricks/Running_YP_Image_On_AWS
