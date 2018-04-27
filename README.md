@@ -126,3 +126,6 @@ Add: "inherit populate_sdk" to the recipe corresponding to the image.
 ## Yocto image with Grub - for running inside virtualbox with swupdate integration
 
 https://wiki.yoctoproject.org/wiki/TipsAndTricks/Running_YP_Image_On_AWS
+
+Convert img to vmdk: http://www.linuxdesk.com/2017/03/qemu-img-usage-examples.html
+
