@@ -130,3 +130,6 @@ https://wiki.yoctoproject.org/wiki/TipsAndTricks/Running_YP_Image_On_AWS
 Convert img to vmdk: http://www.linuxdesk.com/2017/03/qemu-img-usage-examples.html
 
 https://serverfault.com/questions/401351/update-grub2-without-hardware-access-e-g-in-a-chroot?rq=1
+
+https://superuser.com/questions/130955/how-to-install-grub-into-an-img-file (the --modules="part_msdos" seems to be
+important ... got it working at this step)
