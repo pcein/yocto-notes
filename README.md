@@ -133,3 +133,6 @@ https://serverfault.com/questions/401351/update-grub2-without-hardware-access-e-
 
 https://superuser.com/questions/130955/how-to-install-grub-into-an-img-file (the --modules="part_msdos" seems to be
 important ... got it working at this step)
+
+https://alberand.github.io/host-only-networking-set-up-for-qemu-hypervisor.html (qemu host-only networking using a tap interface - works ok)
+
