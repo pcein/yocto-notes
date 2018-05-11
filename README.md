@@ -136,3 +136,8 @@ important ... got it working at this step)
 
 https://alberand.github.io/host-only-networking-set-up-for-qemu-hypervisor.html (qemu host-only networking using a tap interface - works ok)
 
+## Docker + swupdate enabled yocto image - raspberry pi3
+
+https://wiki.yoctoproject.org/wiki/TipsAndTricks/DockerOnImage (for yocto + docker)
+
+
